@@ -41,17 +41,17 @@ public class Lec04_01 {
 		Scanner inputNum = new Scanner(System.in);
 		int score = inputNum.nextInt();
 		
-		switch (score) {
-		case 100:
-		case 90:
+		switch (score / 10) {
+		case 10:
+		case 9:
 			System.out.println("¼ö");
 			break;
 			
-		case 80:
+		case 8:
 			System.out.println("¿ì");
 			break;
 			
-		case 70:
+		case 7:
 			System.out.println("¹Ì");
 			break;
 
