@@ -19,6 +19,7 @@ public class Lec03_02 {
 			System.out.println(i + "는 3의 배수가 아닙니다.");
 		}
 
+		scanner.close();
 	}
 
 }

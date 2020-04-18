@@ -1,7 +1,6 @@
 package com.javalec.ex;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Test {
 

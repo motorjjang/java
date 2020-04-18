@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec08;
 
 public class ManClass {
 	

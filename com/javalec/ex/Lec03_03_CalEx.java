@@ -9,5 +9,6 @@ public class Lec03_03_CalEx {
 		int i = sc.nextInt();
 		
 		System.out.println("i % 3 = " + (i % 3));
+		sc.close();
 	}
 }
