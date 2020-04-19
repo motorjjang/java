@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec04;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Lec04_02 {
 	
 	public static void main(String[] args) {
 		
-		// for¹®
+		// forï¿½ï¿½
 		System.out.print("INPUT NUMBER : ");
 		Scanner scanner = new Scanner(System.in);
 		int inputNum = scanner.nextInt();
@@ -17,7 +17,7 @@ public class Lec04_02 {
 		
 		System.out.println();
 		
-		// while¹®
+		// whileï¿½ï¿½
 		System.out.print("INPUT NUMBER : ");
 		int num = scanner.nextInt();
 		int i = 1;
@@ -30,9 +30,9 @@ public class Lec04_02 {
 		
 		System.out.println();
 		
-		// do ~ while¹®
+		// do ~ whileï¿½ï¿½
 		do {
-			System.out.println("¹«Á¶°Ç 1¹øÀº ½ÇÇàÇÕ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 		} while (false);
 		
 

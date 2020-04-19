@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec02;
 
 public class Lec02 {
 	public static void main(String[] args) {
@@ -29,14 +29,14 @@ public class Lec02 {
 		System.out.println(d);
 		System.out.println(b);
 		
-		//¹¬½ÃÀû Çüº¯È¯
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯
 		int i1 = 10;
 		double d1 = i1;
-		System.out.println("d1 µ¥ÀÌÅÍ´Â " + d1 + "ÀÔ´Ï´Ù.");
+		System.out.println("d1 ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ " + d1 + "ï¿½Ô´Ï´ï¿½.");
 
-		//¸í½ÃÀû Çüº¯È¯		
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯		
 		double d2 = 10.14D;
 		int i2 = (int)d2;
-		System.out.println("i2 µ¥ÀÌÅÍ´Â " + i2 + "ÀÔ´Ï´Ù.");
+		System.out.println("i2 ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ " + i2 + "ï¿½Ô´Ï´ï¿½.");
 	}
 }

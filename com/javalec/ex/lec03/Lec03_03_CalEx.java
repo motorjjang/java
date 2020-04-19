@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec03;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec05;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Lec05 {
 	public static void main(String[] args) {
 		
-		// ¹è¿­ ¼±¾ð ÈÄ ÃÊ±âÈ­
+		// ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê±ï¿½È­
 		int[] arr1 = new int[5];
 		arr1[0] = 100;
 		arr1[1] = 200;
@@ -22,7 +22,7 @@ public class Lec05 {
 		
 		System.out.println();
 		
-		// ¹è¿­ ¼±¾ð°ú ÃÊ±âÈ­¸¦ µ¿½Ã¿¡
+		// ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½
 		int[] arr2 = {10, 20, 30, 40, 50};
 		
 		System.out.println("arr2[0] : " + arr2[0]);
@@ -33,54 +33,54 @@ public class Lec05 {
 		
 		System.out.println();
 		
-		// ¹è¿­À» ÀÌ¿ëÇÑ ÇÐ»ç°ü¸®
-		String[] name = {"¹ÚÂùÈ£", "ÀÌ½Â¿±", "¹Úº´È£", "ÀÌº´±Ô", "·ùÇöÁø"};
+		// ï¿½è¿­ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½Ð»ï¿½ï¿½ï¿½ï¿½
+		String[] name = {"ï¿½ï¿½ï¿½ï¿½È£", "ï¿½Ì½Â¿ï¿½", "ï¿½Úºï¿½È£", "ï¿½Ìºï¿½ï¿½ï¿½", "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"};
 		int[] score = new int[5];
 		Scanner scanner = new Scanner(System.in);
-		System.out.printf("%sÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. : ", name[0]);
+		System.out.printf("%sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. : ", name[0]);
 		score[0] = scanner.nextInt();
 		
-		System.out.printf("%sÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. : ", name[1]);
+		System.out.printf("%sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. : ", name[1]);
 		score[1] = scanner.nextInt();
 		
-		System.out.printf("%sÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. : ", name[2]);
+		System.out.printf("%sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. : ", name[2]);
 		score[2] = scanner.nextInt();
 		
-		System.out.printf("%sÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. : ", name[3]);
+		System.out.printf("%sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. : ", name[3]);
 		score[3] = scanner.nextInt();
 		
-		System.out.printf("%sÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. : ", name[4]);
+		System.out.printf("%sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. : ", name[4]);
 		score[4] = scanner.nextInt();
 		
-		System.out.printf("%s Á¡¼ö : \t%.2f\n", name[0], (double)score[0]);
-		System.out.printf("%s Á¡¼ö : \t%.2f\n", name[1], (double)score[1]);
-		System.out.printf("%s Á¡¼ö : \t%.2f\n", name[2], (double)score[2]);
-		System.out.printf("%s Á¡¼ö : \t%.2f\n", name[3], (double)score[3]);
-		System.out.printf("%s Á¡¼ö : \t%.2f\n", name[4], (double)score[4]);
+		System.out.printf("%s ï¿½ï¿½ï¿½ï¿½ : \t%.2f\n", name[0], (double)score[0]);
+		System.out.printf("%s ï¿½ï¿½ï¿½ï¿½ : \t%.2f\n", name[1], (double)score[1]);
+		System.out.printf("%s ï¿½ï¿½ï¿½ï¿½ : \t%.2f\n", name[2], (double)score[2]);
+		System.out.printf("%s ï¿½ï¿½ï¿½ï¿½ : \t%.2f\n", name[3], (double)score[3]);
+		System.out.printf("%s ï¿½ï¿½ï¿½ï¿½ : \t%.2f\n", name[4], (double)score[4]);
 		
 		double ave = (double)(score[0] + score[1] + score[2] + score[3] + score[4]) / 5;
-		System.out.printf("-----------------------\nÆò Á¡ : \t%.2f", ave);
+		System.out.printf("-----------------------\nï¿½ï¿½ ï¿½ï¿½ : \t%.2f", ave);
 		
 		scanner.close();
 		
 		System.out.println();
 		
-		// ¹è¿­ ±âº»¼Ó¼º
+		// ï¿½è¿­ ï¿½âº»ï¿½Ó¼ï¿½
 		int[] arrAtt1 = {10, 20, 30, 40, 50, 60};
 		int[] arrAtt2 = null;
 		int[] arrAtt3 = null;
 		
-		// ¹è¿­ ±æÀÌ
+		// ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
 		System.out.println("arrAtt1.length : " + arrAtt1.length);
 		
-		// ¹è¿­ ¿ä¼Ò Ãâ·Â
+		// ï¿½è¿­ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		System.out.println("arrAtt1 : " + Arrays.toString(arrAtt1));
 		
-		// ¹è¿­ ¿ä¼Ò º¹»ç
+		// ï¿½è¿­ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		arrAtt3 = Arrays.copyOf(arrAtt1, arrAtt1.length);
 		System.out.println("arrAtt3 : " + Arrays.toString(arrAtt3));
 		
-		// ¹è¿­ ·¹ÆÛ·±½º
+		// ï¿½è¿­ ï¿½ï¿½ï¿½Û·ï¿½ï¿½ï¿½
 		arrAtt2 = arrAtt1;
 		System.out.println("arrAtt1 : " + arrAtt1);
 		System.out.println("arrAtt2 : " + arrAtt2);
@@ -88,7 +88,7 @@ public class Lec05 {
 		
 		System.out.println();
 		
-		// ´ÙÂ÷¿ø ¹è¿­
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­
 		int[][]  arrMul  = new int[3][2];
 		arrMul[0][0] = 10;
 		arrMul[0][1] = 100;

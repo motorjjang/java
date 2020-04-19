@@ -1,11 +1,11 @@
-package com.javalec.ex;
+package com.javalec.ex.lec06;
 
 import java.util.Scanner;
 
 public class Lec06 {
 
 	public static void main(String[] args) {
-		System.out.print("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½ : ");
 		Scanner inputNum = new Scanner(System.in);
 		int param = inputNum.nextInt();
 		

@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec03;
 
 public class Lec03_01 {
 	public static void main(String[] args) {
@@ -7,17 +7,17 @@ public class Lec03_01 {
 		int j = 3;
 		int h = 5;
 		
-		System.out.println("=== µ¿µîºñ±³, °ü°è ¿¬»êÀÚ ===");
+		System.out.println("=== ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===");
 		System.out.println("i == j >> " + (i == j));
 		System.out.println("i != j >> " + (i != j));
 		System.out.println("i > j >> " + (i > j));
 		System.out.println("i < j >> " + (i < j));
 		
-		System.out.println("\n=== ³í¸® ¿¬»êÀÚ ===");
+		System.out.println("\n=== ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===");
 		System.out.println("&&(AND) >> " + (i > j && i > h));
 		System.out.println("||(OR) >> " + (i > j || i < h));
 		
-		System.out.println("\n=== »ïÇ× ¿¬»êÀÚ ===");
+		System.out.println("\n=== ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===");
 		int result = h != 5 ? 1 : 2;
 		System.out.println("result = " + result);
 	}

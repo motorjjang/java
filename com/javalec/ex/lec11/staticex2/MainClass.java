@@ -8,6 +8,6 @@ public class MainClass {
 		PiClass.PI = PiClass.PI - 1;
 		
 		PiClass piclass = new PiClass();
-		System.out.println(piclass.PI);
+		System.out.println(PiClass.PI);
 	}
 }
