@@ -1,4 +1,4 @@
-package com.javalec.ex.lec15;
+package com.javalec.ex.lec15_abstract;
 
 public class Child1 extends LunchMenu {
 
