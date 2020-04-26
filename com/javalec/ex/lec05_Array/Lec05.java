@@ -1,4 +1,4 @@
-package com.javalec.ex.lec05;
+package com.javalec.ex.lec05_Array;
 
 import java.util.Arrays;
 import java.util.Scanner;

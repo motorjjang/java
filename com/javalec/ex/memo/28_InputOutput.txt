@@ -1,0 +1,10 @@
+--JAVA 입출력 API
+InputStream 사용법
+1) InputSream (추상)클래스를 이용해서 객체를 만든다. 또는 다른 클래스의 메소드에서 반환(리턴)되는 타입 객체를 얻는다.
+2) read()메소드를 이용해서 데이터를 읽으면 됩니다.
+3) read(), read(byte[]) 두개의 메소드를 이용할 수 있습니다.
+
+OutputStream 사용법
+1) OutputStream 클래스를 이용해서 객체를 만든다. 또는 다른 클래스의 메소드에서 반환(리턴)되는 타입 객체를 얻는다.
+2) write()메소드를 이용해서 데이터를 읽으면 됩니다.
+3) write(), write(byte[]), write(byte[], int, int) 세개의 메소드를 이용할 수 있습니다.

@@ -1,4 +1,4 @@
-package com.javalec.ex;
+package com.javalec.ex.lec05_Array;
 
 import java.util.Arrays;
 
@@ -26,7 +26,7 @@ public class Test {
 		
 		System.out.println();
 		
-		// ´ÙÂ÷¿ø ¹è¿­
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­
 		int[][]  arrMul  = new int[3][2];
 		arrMul[0][0] = 10;
 		arrMul[0][1] = 100;

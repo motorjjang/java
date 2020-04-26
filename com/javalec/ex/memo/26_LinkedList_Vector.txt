@@ -1,0 +1,5 @@
+--LinkedList
+ArrayList와 거의 비슷합니다.
+
+--Vector
+ArrayList와 비슷하지만 속도가 떨어집니다. 하지만, ArrayList보다 멀티스레드 환경에서는 안전하여, 여전히 많이 쓰이고 있습니다.

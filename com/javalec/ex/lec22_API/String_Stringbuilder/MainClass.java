@@ -1,4 +1,4 @@
-package com.javalec.ex.lec22_API;
+package com.javalec.ex.lec22_API.String_Stringbuilder;
 
 public class MainClass {
 
@@ -43,9 +43,10 @@ public class MainClass {
 		//replaceAll : 특정문자열 변경
 		System.out.println(str1.replaceAll("abcd", "ZZZZZZZ"));
 		
-		System.out.println(str1);
-		
+		System.out.println(str1);		
 		System.out.println();
+		
+		
 		//StringBuilder
 		StringBuilder stringBuilder = new StringBuilder("abcdefg");
 		
