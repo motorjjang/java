@@ -1,7 +1,7 @@
 package com.javalec.ex.lec27_collection.HashSet_02;
 
 public class Student {
-
+	
 	private String name;
 	private int grade;
 	
@@ -18,10 +18,9 @@ public class Student {
 	
 	@Override
 	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
 		String compareValue = obj.toString();
 		String thisValue = toString();
-		return thisValue.equals(compareValue);
+		return thisValue.contentEquals(compareValue);
 	}
 	
 	@Override

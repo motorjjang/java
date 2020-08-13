@@ -8,6 +8,7 @@ public class Student {
 	private String major;
 	
 	public Student(String name, int age, int studentNum, String major) {
+		// TODO Auto-generated constructor stub
 		this.name = name;
 		this.age = age;
 		this.studentNum = studentNum;
@@ -15,17 +16,18 @@ public class Student {
 	}
 	
 	public void updateInfo(int i, String info) {
-		switch (i) {
-		case 1 :	//ÀÌ¸§ ¼öÁ¤
+		// TODO Auto-generated method stub
+		switch(i) {
+		case 1 :	//ì´ë¦„ ìˆ˜ì •
 			setName(info);
 			break;
-		case 2 :	//³ªÀÌ ¼öÁ¤
+		case 2 :	//ë‚˜ì´ ìˆ˜ì •
 			setAge(Integer.parseInt(info));
 			break;
-		case 3 :	//ÇĞ¹ø ¼öÁ¤
+		case 3 :	//í•™ë²ˆ ìˆ˜ì •
 			setStudentNum(Integer.parseInt(info));
 			break;
-		case 4 :	//Àü°ø ¼öÁ¤
+		case 4 :	//ì „ê³µ ìˆ˜ì •
 			setMajor(info);
 			break;
 		}

@@ -1,12 +1,12 @@
 package com.javalec.ex.lec08;
 
 public class ManClass {
-	
+
 	private int age;
 	private int height;
 	private int weight;
 	private String phoneNum;
-
+	
 	public ManClass() {
 		// TODO Auto-generated constructor stub
 	}
@@ -19,7 +19,7 @@ public class ManClass {
 	}
 	
 	public double calculateBMI() {
-		double result = (double)weight / (height * height);
+		double result = (double)weight / (height*height);
 		return result;
 	}
 
@@ -55,5 +55,5 @@ public class ManClass {
 		this.phoneNum = phoneNum;
 	}
 	
-
+	
 }

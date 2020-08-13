@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class StudentExpel {
 
 	ArrayList<Student> expelStudents;
+	
 	public StudentExpel() {
+		// TODO Auto-generated constructor stub
 		expelStudents = new ArrayList<Student>();
 	}
 	

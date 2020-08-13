@@ -3,17 +3,16 @@ package com.javalec.ex.lec08;
 public class MainClass {
 
 	public static void main(String[] args) {
-		ManClass mc01 = new ManClass();
-		mc01.setAge(22);
-		System.out.println(mc01.getAge());
+		ManClass mc = new ManClass();
+		ManClass mc1 = new ManClass(15, 168, 58, "010-1234-1234");
 		
-		ManClass mc02 = new ManClass(23, 175, 70, "010-2222-3333");
-		System.out.println(mc02.getAge());
-		System.out.println(mc02.calculateBMI());
+		mc.getAge();
+		mc.setAge(16);
 		
-		WomanClass wc = new WomanClass();
-		WomanClass wc1 = new WomanClass();
+		System.out.println(mc1.calculateBMI());
 		
-		System.out.println(wc.equals(wc1));
+		System.out.println(mc1.getAge() + ", " + mc1.getHeight() + ", " + mc1.getWeight() + ", " + mc1.getPhoneNum());
+		mc1.setAge(25);
+		System.out.println(mc1.getAge() + ", " + mc1.getHeight() + ", " + mc1.getWeight() + ", " + mc1.getPhoneNum());
 	}
 }

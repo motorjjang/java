@@ -3,6 +3,7 @@ package com.javalec.ex.lec08;
 public class WomanClass {
 
 	public WomanClass() {
-		System.out.println("¿©±â´Â ¿ì¸ÕÅ¬·¡½º »ı¼ºÀÚ ÀÔ´Ï´Ù.");
+		// TODO Auto-generated constructor stub
+		System.out.println("ì—¬ê¸°ëŠ” WomanClass ìƒì„±ì ì…ë‹ˆë‹¤.");
 	}
 }
