@@ -12,6 +12,8 @@ public class StudentExpel {
 	}
 	
 	public void addExpelStudent(String name, int age, int studentNum, String major) {
-		expelStudents.add(new Student(name, age, studentNum, major));
+		
+		Student s = new Student(name, age, studentNum, major);
+		expelStudents.add(s);
 	}
 }
