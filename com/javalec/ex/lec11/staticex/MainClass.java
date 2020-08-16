@@ -1,35 +1,28 @@
 package com.javalec.ex.lec11.staticex;
 
-import java.util.Scanner;
-
 import com.javalec.ex.lec11.children.FirstChild;
 import com.javalec.ex.lec11.children.SecondChild;
 import com.javalec.ex.lec11.children.ThirdChild;
-import com.javalec.ex.lec11.father.FatherWallet;
+import com.javalec.ex.lec11.papa.PapaPouch;
+import com.javalec.ex.lec11.staticex2.PiClass;
 
 public class MainClass {
 
 	public static void main(String[] args) {
 		
-		Scanner inputMoney = new Scanner(System.in);
-		
-		System.out.print("Ã¹Â°°¡ °¡Á®°¥ µ·À» ÀÔ·ÂÇÏ½Ã¿À : ");
-		int firstChildMoney = inputMoney.nextInt();
 		FirstChild firstChild = new FirstChild();
-		firstChild.takeMoney(firstChildMoney);
+		firstChild.takeMoney(100);
 		
-		System.out.print("\nµÑÂ°°¡ °¡Á®°¥ µ·À» ÀÔ·ÂÇÏ½Ã¿À : ");
-		int secondChildMoney = inputMoney.nextInt();
 		SecondChild secondChild = new SecondChild();
-		secondChild.takeMoney(secondChildMoney);
+		secondChild.takeMoney(100);
 		
-		System.out.print("\n¼ÂÂ°°¡ °¡Á®°¥ µ·À» ÀÔ·ÂÇÏ½Ã¿À : ");
-		int thirdChildMoney = inputMoney.nextInt();
 		ThirdChild thirdChild = new ThirdChild();
-		thirdChild.takeMoney(thirdChildMoney);
+		thirdChild.takeMoney(100);
 		
-		inputMoney.close();
+		System.out.println("ë‚¨ì€ëˆ : " + PapaPouch.MONEY);
+		PapaPouch.MONEY = 200;
+		System.out.println("ë‚¨ì€ëˆ : " + PapaPouch.MONEY);
 		
-		System.out.println("\nÇöÀç ¾Æºü ÀÚ°©¿¡ ³²Àº µ· : " + FatherWallet.MONEY);
+		System.out.println(PiClass.PI);
 	}
 }

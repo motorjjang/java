@@ -1,20 +1,17 @@
 package com.javalec.ex.lec11.children;
 
-import com.javalec.ex.lec11.father.FatherWallet;
+import com.javalec.ex.lec11.papa.PapaPouch;
 
 public class SecondChild {
-
 	public SecondChild() {
 		// TODO Auto-generated constructor stub
 	}
 	
 	public void takeMoney(int money) {
-		FatherWallet.MONEY = FatherWallet.MONEY - money;
-		if (FatherWallet.MONEY < 0) {
-			System.out.println("µÑÂ°´Â µ·ÀÌ ¾ø¾î ¸ø¹Þ¾Ò¾î¿ä¤Ð¤Ð");
-			FatherWallet.MONEY = FatherWallet.MONEY + money;
-		} else {
-			System.out.println("µÑÂ°´Â " + money + "¿øÀ» °¡Á®°¬½À´Ï´Ù.");
+		PapaPouch.MONEY -= money;
+		if (PapaPouch.MONEY < 0) {
+			System.out.println("ë‘˜ì§¸ëŠ” ëˆì„ ëª»ë°›ì•˜ì–´ìš”.");
 		}
 	}
+
 }

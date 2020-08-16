@@ -6,6 +6,7 @@ public class Student {
 	private int age;
 	private int studentNum;
 	private String major;
+	private char expelAt;
 	
 	public Student(String name, int age, int studentNum, String major) {
 		// TODO Auto-generated constructor stub
@@ -13,6 +14,7 @@ public class Student {
 		this.age = age;
 		this.studentNum = studentNum;
 		this.major = major;
+		this.expelAt = 'N';
 	}
 	
 	public void updateInfo(int i, String info) {
@@ -64,6 +66,12 @@ public class Student {
 	public void setMajor(String major) {
 		this.major = major;
 	}
-	
-	
+
+	public char getExpelAt() {
+		return expelAt;
+	}
+
+	public void setExpelAt(char expelAt) {
+		this.expelAt = expelAt;
+	}	
 }
