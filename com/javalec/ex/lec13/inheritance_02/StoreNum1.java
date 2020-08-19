@@ -24,4 +24,8 @@ public class StoreNum1 extends HeadQuaterStore {
 		System.out.println("판매하지 않습니다.");
 	}
 	
+	public void orderTest() {
+		System.out.println("orderTest");
+	}
+	
 }

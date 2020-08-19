@@ -5,15 +5,15 @@ public class FirstClass {
 	public FirstClass() {
 		// TODO Auto-generated constructor stub
 		SingletonClass singletonClass = SingletonClass.getSingletonClass();
-		singletonClass.get();
+		singletonClass.getI();
 		System.out.println("FirstClass");
-		System.out.println("i = " + singletonClass.get());
+		System.out.println("i = " + singletonClass.getI());
 		singletonClass.setI(200);
-		System.out.println("i = " + singletonClass.get());
+		System.out.println("i = " + singletonClass.getI());
 	}
 	
 	public int get() {
 		SingletonClass singletonClass = SingletonClass.getSingletonClass();		
-		return singletonClass.get(); 
+		return singletonClass.getI(); 
 	}
 }

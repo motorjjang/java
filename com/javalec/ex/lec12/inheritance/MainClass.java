@@ -3,22 +3,13 @@ package com.javalec.ex.lec12.inheritance;
 public class MainClass {
 
 	public static void main(String[] args) {
+		ChildClass cC = new ChildClass();
+		System.out.print("ì•„ë²„ì§€ ì´ë¦„ : ");
+		cC.getPapaNm();
+		System.out.print("ì–´ë¨¸ë‹ˆ ì´ë¦„ : ");
+		cC.getMamiNm();
 		
-		ChildClass childClass = new ChildClass();
+		System.out.println(cC.cStr);
 		
-		System.out.print("¾Æºü ÀÌ¸§ : ");		
-		childClass.getPapaName();
-		
-		System.out.println();
-		System.out.print("¾ö¸¶ ÀÌ¸§ : ");
-		childClass.getMamiName();
-		
-		System.out.println();
-		System.out.print("¾Æµé ÀÌ¸§ : ");
-		childClass.getChildName();
-		
-		System.out.println();
-		System.out.println(childClass.pStr);
-		System.out.println(childClass.cStr);
 	}
 }

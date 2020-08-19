@@ -1,6 +1,6 @@
 package com.javalec.ex.lec15_abstract;
 
-public class Child2 extends LunchMenu{
+public class Child2 extends LunchMenu {
 
 	public Child2(int rice, int bulgogi, int banana, int milk, int almond) {
 		super(rice, bulgogi, banana, milk, almond);
@@ -8,9 +8,9 @@ public class Child2 extends LunchMenu{
 	}
 
 	@Override
-	public int calculating() {
+	int calculating() {
 		// TODO Auto-generated method stub
-		return rice + bulgogi + almond;
+		return rice + bulgogi + milk + almond;
 	}
 
 }

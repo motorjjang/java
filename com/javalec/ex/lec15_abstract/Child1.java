@@ -8,8 +8,9 @@ public class Child1 extends LunchMenu {
 	}
 
 	@Override
-	public int calculating() {
+	int calculating() {
 		// TODO Auto-generated method stub
 		return rice + bulgogi + banana;
 	}
+
 }

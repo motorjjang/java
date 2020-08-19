@@ -7,6 +7,6 @@ public class SecondClass {
 		
 		SingletonClass singletonClass = SingletonClass.getSingletonClass();
 		System.out.println("SecondClass");
-		System.out.println("i = " + singletonClass.get());
+		System.out.println("i = " + singletonClass.getI());
 	}
 }

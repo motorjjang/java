@@ -10,7 +10,13 @@ public class ChildClass extends ParentClass {
 	@Override
 	public void method() {
 		// TODO Auto-generated method stub
+		System.out.println(super.i);
 		super.method();
 		System.out.println("부모 클래스의 method()를 실행하고, 자식 클래스의 나머지 작업을 합니다.");
+	}
+	
+	void methodTest() {
+		// TODO Auto-generated method stub
+
 	}
 }

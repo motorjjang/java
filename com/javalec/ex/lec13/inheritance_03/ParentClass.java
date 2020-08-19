@@ -2,6 +2,8 @@ package com.javalec.ex.lec13.inheritance_03;
 
 public class ParentClass {
 
+	int i = 0;
+	
 	public ParentClass() {
 		// TODO Auto-generated constructor stub
 		System.out.println("ParentClass");

@@ -2,13 +2,13 @@ package com.javalec.ex.lec12.inheritance;
 
 public class ChildClass extends ParentClass{
 
-	public String cStr = "¾Æµé Å¬·¡½º";
+	String cStr = "ì•„ë“¤ í´ë˜ìŠ¤";
 	
 	public ChildClass() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void getChildName() {
-		System.out.print("È«¼­¹ü");
+	public void getSonNm() {
+		System.out.println("í™ê¸¸ë™ ì¶˜í–¥ì´ ì•„ë“¤");
 	}
 }

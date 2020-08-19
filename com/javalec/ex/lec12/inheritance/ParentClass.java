@@ -2,17 +2,17 @@ package com.javalec.ex.lec12.inheritance;
 
 public class ParentClass {
 
-	public String pStr = "ºÎ¸ğ Å¬·¡½º";
+	String pStr = "ë¶€ëª¨ í´ë˜ìŠ¤";
 	
 	public ParentClass() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void getPapaName() {
-		System.out.print("È«±æµ¿");
+	public void getPapaNm() {
+		System.out.println("í™ê¸¸ë™");
 	}
 	
-	public void getMamiName() {
-		System.out.print("±èÃáÀÚ");
+	public void getMamiNm() {
+		System.out.println("ì¶˜í–¥ì´");
 	}
 }

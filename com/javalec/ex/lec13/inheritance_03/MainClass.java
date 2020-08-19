@@ -6,6 +6,8 @@ public class MainClass {
 		
 		ChildClass childClass = new ChildClass();
 		childClass .method();
+		ParentClass cC2 = new ChildClass();
+		
 	}
 
 }

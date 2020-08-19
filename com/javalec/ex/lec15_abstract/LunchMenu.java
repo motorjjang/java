@@ -2,12 +2,12 @@ package com.javalec.ex.lec15_abstract;
 
 public abstract class LunchMenu {
 
-	public int rice;
-	public int bulgogi;
+	int rice;
+	int bulgogi;
 	
-	public int banana;
-	public int milk;
-	public int almond;
+	int banana;
+	int milk;
+	int almond;
 	
 	public LunchMenu(int rice, int bulgogi, int banana, int milk, int almond) {
 		// TODO Auto-generated constructor stub
@@ -18,5 +18,6 @@ public abstract class LunchMenu {
 		this.almond = almond;
 	}
 	
-	public abstract int calculating();
+	abstract int calculating();
+	
 }

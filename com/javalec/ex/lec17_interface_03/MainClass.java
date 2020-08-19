@@ -7,13 +7,21 @@ public class MainClass {
 		Actress actress = new Actress();
 		actress.canCatchCriminal();
 		actress.canSearch();
-		actress.makePizza();
-		actress.makeSpaghetti();
 		actress.outFire();
 		actress.saveMan();
+		actress.makePizza();
+		actress.makeSpaghetti();
 		
-		Chef chef = new Actress();
-		chef.makePizza();
-		chef.makeSpaghetti();
+		PoliceMan pActor = new Actress();
+		pActor.canCatchCriminal();
+		pActor.canSearch();
+		
+		FireFighter fActor = new Actress();
+		fActor.outFire();
+		fActor.saveMan();
+		
+		Chef cActor = new Actress();
+		cActor.makePizza();
+		cActor.makeSpaghetti();
 	}
 }

@@ -11,6 +11,9 @@ public class MainClass {
 		store1.orderSunDaeguk();
 		store1.orderGongGibap();
 		
+		StoreNum1 num1 = new StoreNum1();
+		num1.orderTest();
+		
 		System.out.println("=====================");
 		
 		HeadQuaterStore store2 = new StoreNum2();
