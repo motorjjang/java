@@ -7,7 +7,7 @@ public class ThrowsExClass {
 		actionC();
 	}
 	
-	private void actionA() throws Exception {
+	private void actionA() throws Exception {	//actionA()를 호출한 곳으로 예외를 던진다.
 		System.out.println("actionA");
 		
 		int[] iArr = {1, 2, 3, 4};
@@ -23,7 +23,8 @@ public class ThrowsExClass {
 			actionA();
 		} catch (Exception e) {
 			System.out.println("예외는 여기서 처리 할께요.^^");
-			System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
+			e.printStackTrace();
 		}
 		
 		System.out.println("actionBB");

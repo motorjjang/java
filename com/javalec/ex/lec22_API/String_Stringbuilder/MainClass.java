@@ -7,6 +7,10 @@ public class MainClass {
 		String str1 = "abcdefg";
 		String str2 = "HIJKLMN";
 		String str3 = "opqrstu";
+		String strTest = "tel : 010-7673-2030";
+		
+		System.out.println(strTest.replaceAll("[^0-9]", ""));
+		System.out.println(str1.replace("ab", "cd"));
 		
 		//concat : 문자열 연결
 		System.out.println(str1.concat(str2));
@@ -62,5 +66,13 @@ public class MainClass {
 		//deleteCharAt : 특정 문자 하나 삭제
 		System.out.println(stringBuilder.deleteCharAt(10));		
 		System.out.println(stringBuilder);
+		
+		String s10 = "분만(암암)";
+		//System.out.println(s10.replace("분만(", "").replace(")",""));
+		System.out.println(s10.replaceAll("[분만()]", ""));
+		
+		int start = s10.indexOf('(');
+		int end = s10.indexOf(')');
+		//System.out.println(s10.substring(start + 1, end));
 	}
 }

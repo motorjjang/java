@@ -1,5 +1,6 @@
 package com.javalec.ex.lec24_API_03.StringTokenizer;
 
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class MainClass {
@@ -22,9 +23,9 @@ public class MainClass {
 		System.out.println("tokenizer3 문자열 수 : " + tokenizer3.countTokens());
 		System.out.println();
 		
-		while (tokenizer1.hasMoreTokens()) {
-			System.out.println(tokenizer1.nextToken());
-		}
+		//while (tokenizer1.hasMoreTokens()) {
+			//System.out.println(tokenizer1.nextToken());
+		//}
 		System.out.println();
 		
 		while (tokenizer2.hasMoreTokens()) {
@@ -33,6 +34,16 @@ public class MainClass {
 		System.out.println();
 		while (tokenizer3.hasMoreTokens()) {
 			System.out.println(tokenizer3.nextToken());
+		}
+		
+		ArrayList<String> arrayList = new ArrayList<String>();
+		while (tokenizer1.hasMoreTokens()) {
+			arrayList.add(tokenizer1.nextToken());
+			
+		}
+		
+		for (String k : arrayList) {
+			System.out.println(k);
 		}
 	}
 }
