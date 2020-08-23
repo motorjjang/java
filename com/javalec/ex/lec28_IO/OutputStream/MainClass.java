@@ -12,7 +12,7 @@ public class MainClass {
 		OutputStream os = null;
 		
 		try {
-			os = new FileOutputStream("D:\\git\\eclipse-workspace\\testex\\src\\com\\javalec\\ex\\memo\\28_OutputStream_test.txt");
+			os = new FileOutputStream("D:\\git\\eclipse-workspace\\testex\\src\\com\\javalec\\ex\\memo\\jaout.txt");
 			String str = "오늘 날씨는 아주 좋습니다. 정말 좋습니다.";
 			byte[] bs = str.getBytes();
 			os.write(bs);
