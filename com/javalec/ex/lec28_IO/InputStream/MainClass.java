@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class MainClass {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		
 		try {
 			InputStream is = new FileInputStream("D:\\git\\eclipse-workspace\\testex\\src\\com\\javalec\\ex\\memo\\jain.txt");
@@ -23,7 +23,7 @@ public class MainClass {
 			}
 			System.out.println(s);
 			is.close();
-		} catch (FileNotFoundException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
