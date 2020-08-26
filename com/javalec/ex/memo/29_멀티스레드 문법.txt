@@ -1,0 +1,3 @@
+Runnable 인터페이스 구현을 통한 Thread
+
+Thread 클래스를 상속 통한 Thread
