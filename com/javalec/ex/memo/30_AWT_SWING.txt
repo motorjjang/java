@@ -1,0 +1,7 @@
+/**
+ * pack() : 컴포넌트이 사이즈를 정함.
+ * setSize() : 컴포넌트의 사이즈를 개발자가 정함
+ * setVisible(true) : 화면에 출력함.
+ * dispose() : 자원 해제
+ * System.exit() : 애플리케이션 종료.
+ */
